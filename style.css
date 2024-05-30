@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    border-left: 5px dotted blue;
+    border-right: 5px dotted blue;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(blue, lightblue, white, white, white, lightblue, lightblue, blue);
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+header {
+    border-bottom: 2px solid darkblue;
+}
+
+footer {
+    border-top: 2px solid darkblue
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+    transition: 0.1s all linear;
+}
+
+a:hover {
+    text-shadow: 0 0 25px black;
+    border-bottom: 2px solid darkblue;
+}
+
+.game:focus {
+    font-size: 31px;
+}
+
+.recept {
+    text-align: center;
+    box-shadow: 0 0 15px 0 brown;
+    font-weight: bold;
+}
+
+.first-recept {
+    border: 2px solid brown;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+}
+
+.recepts {
+    border: 2px solid brown;
+    padding: 5px;
+}
+
+.last-recept {
+    border: 2px solid brown;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+}
+
+.nice {
+    border-top: 2px solid green;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.choise th {
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    color: darkslategray;
+}
+
+.choise td {
+    position: relative;
+    right: 85px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    border-left: 5px dotted brown;
+    border-right: 5px dotted brown;
+    padding: 5px;
+}
+
+.like {
+    color: darkgreen;
+}
+
+.no {
+    color: darkred;
+}
+
+.choise a {
+    font-weight: bold;
+}
+
+.choise a:focus {
+    font-size: 15px;
+}
+
+.info {
+    color: darkgray;
+    font-size: 25px;
+}
